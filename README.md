@@ -6,11 +6,11 @@ This project performs Optical Character Recognition (OCR) on vehicle license pla
 ## Project Structure
 ```
 aas/
-├── test/                 # Folder containing license plate images
-├── labels.csv            # Ground truth labels for the plates
-├── ocr_predict.py        # Script to predict license plate contents
-├── evaluate_results.py.py     # Script to evaluate the results (CER)
-├── predictions.csv    # Final prediction output
+├── test/                     # Folder containing license plate images
+├── labels.csv                # Ground truth labels for the plates
+├── ocr_predict.py            # Script to predict license plate contents
+├── evaluate_results.py.py    # Script to evaluate the results (CER)
+├── predictions.csv           # Final prediction output
 ```
 
 ## Tools Used
@@ -83,13 +83,13 @@ CER = (S + D + I) / N
   - Fair: 90 images
   - Failed: 68 images
 
-### Accurate Prediction Example:
+## Accurate Prediction Example:
 - Image         : test027_3.jpg
 - Ground Truth  : L1840AL
 - Prediction    : L1840
 - CER Score     : 0.286
 
-### Failed Prediction Example:
+## Failed Prediction Example:
 - Image         : test001_1.jpg
 - Ground Truth  : B9140BCD
 - Prediction    : B 9114116
