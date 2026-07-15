@@ -9,7 +9,7 @@ aas/
 ├── test/                     # Folder containing license plate images
 ├── labels.csv                # Ground truth labels for the plates
 ├── ocr_predict.py            # Script to predict license plate contents
-├── evaluate_results.py.py    # Script to evaluate the results (CER)
+├── evaluate_results.py       # Script to evaluate the results (CER)
 ├── predictions.csv           # Final prediction output
 ```
 
